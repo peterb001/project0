@@ -1,0 +1,15 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.specificMessage {
+    @extend %message;
+    background-color: green;
+}
+
+.otherMessage {
+    @extend %message;
+    background-color: red;
+}
